@@ -26,6 +26,6 @@ app.component('prmOpacAfter', {
   bindings: { parentCtrl: '<' },
   controller: 'RelatedTitlesController',
   template: `Opere in più volumi: <div ng-repeat="title in $ctrl.rel">
-           <a href="{{title[0]}}">{{title[1]}}</a><br />
+           <a href="{{title[1]}}">{{title[0]}}</a><br />
         </div>`
 });
